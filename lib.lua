@@ -730,7 +730,7 @@ function library:Introduction()
     
     bar.Name = "bar"
     bar.Parent = barFolder
-    bar.BackgroundColor3 = Color3.fromRGB(0,0,0)
+    bar.BackgroundColor3 = Color3.fromRGB(255,255,255)
     bar.BackgroundTransparency = 0.200
     bar.Size = UDim2.new(0, 0, 0, 1)
     
@@ -752,7 +752,7 @@ function library:Introduction()
     xsxLogo.Size = UDim2.new(0, 448, 0, 150)
     xsxLogo.Visible = true
     xsxLogo.Image = "http://www.roblox.com/asset/?id=9365068051"
-    xsxLogo.ImageColor3 = Color3.fromRGB(0,0,0)
+    xsxLogo.ImageColor3 = Color3.fromRGB(255,255,255)
     xsxLogo.ImageTransparency = 1
     
     hashLogo.Name = "hashLogo"
@@ -764,7 +764,7 @@ function library:Introduction()
     hashLogo.Size = UDim2.new(0, 150, 0, 150)
     hashLogo.Visible = true
     hashLogo.Image = "http://www.roblox.com/asset/?id=9365069861"
-    hashLogo.ImageColor3 = Color3.fromRGB(0,0,0)
+    hashLogo.ImageColor3 = Color3.fromRGB(255,255,255)
     hashLogo.ImageTransparency = 1
     
     xsx.Name = "Moon"
