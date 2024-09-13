@@ -1088,7 +1088,7 @@ function library:Init(key)
                     TweenService:Create(v, TweenTable["tab_text_colour"], {TextColor3 = Color3.fromRGB(170, 170, 170)}):Play()
                 end
             end
-            TweenService:Create(tabButton, TweenTable["tab_text_colour"], {TextColor3 = Color3.fromRGB()}):Play()
+            TweenService:Create(tabButton, TweenTable["tab_text_colour"], {TextColor3 = Color3.fromRGB(255,255,255)}):Play()
         end)
 
         local function UpdatePageSize()
