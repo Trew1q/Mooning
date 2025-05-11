@@ -73,7 +73,7 @@ FOV_Circle = Drawing.new("Circle")
 FOV_Circle.Color = Color3.fromRGB(255,255,255)
 FOV_Circle.Thickness = 3
 FOV_Circle.NumSides = 50
-FOV_Circle.Radius = 150
+FOV_Circle.Radius = 80
 FOV_Circle.Filled = false
 
 local XOffset = 0
@@ -226,7 +226,7 @@ local TogglesSection = KnifeTab:AddSection({
 	Name = "Silent Aim"
 })
 
-KnifeTab:AddToggle({
+PlayerTab:AddToggle({
 	Name = "Silent Aim Enabled",
 	Default = false,
 	Callback = function(Value)
@@ -242,7 +242,7 @@ local function fovCircleVisible()
     end
 end
 
-KnifeTab:AddToggle({
+PlayerTab:AddToggle({
 	Name = "FOV Circle Enabled",
 	Default = false,
 	Callback = function(Value)
@@ -251,11 +251,11 @@ KnifeTab:AddToggle({
 	end    
 })
 
-KnifeTab:AddSlider({
+PlayerTab:AddSlider({
 	Name = "FOV Circle Size",
 	Min = 50,
 	Max = 250,
-	Default = 150,
+	Default = 80,
 	Color = Color3.fromRGB(255,255,255),
 	Increment = 5,
 	ValueName = "",
